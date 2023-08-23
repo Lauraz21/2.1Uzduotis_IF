@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Iveskite temperatura: ");
-int temp = Convert.ToInt32(Console.ReadLine());
+float temp = Convert.ToSingle(Console.ReadLine());
 if (temp < 0)
 {
     Console.WriteLine("Salta");
